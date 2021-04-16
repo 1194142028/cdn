@@ -15,6 +15,37 @@
 /*
  * PC
  */
+#wp-calendar {
+	margin: 0;
+	width: 100%;
+	font-size: 13px;
+	font-size: 0.928571429rem;
+	line-height: 1.846153846;
+	color: #686868;
+}
+#wp-calendar #today {
+        background:#E6E6E6;
+}
+#wp-calendar th {
+        background:#52c6ec;
+        color:#FFF;
+        text-align:center;
+}
+#wp-calendar td {
+	text-align:center;
+}
+#wp-calendar caption {
+       letter-spacing:-0.05em;
+       font-size:100%;
+       text-align:left;
+       padding-bottom:5px;
+}
+#wp-calendar td#prev {
+       text-align:left;
+}
+#wp-calendar #next {
+       text-align: right;
+}
 .tag-cloud-link {
     background-color: #fbf9f9;
     padding: 0 8px;
