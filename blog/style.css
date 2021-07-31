@@ -78,12 +78,14 @@ border-bottom: solid 1px #e6e6e6;
 html, body, * {
     margin: 0;
     padding: 0;
-    border: 0;
     background: transparent;
     word-wrap: break-word;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 	cursor: url(https://cdn.jsdelivr.net/gh/iMacroC/cdn@master/blog/arrow.cur),default;
+}
+#layui-collapse{
+border: 0;
 }
 html, body, * a:hover{cursor:url(https://cdn.jsdelivr.net/gh/iMacroC/cdn@master/blog/hand.cur),pointer;}
 #comments {
