@@ -1,0 +1,110 @@
+/*
+Theme Name: Oneday
+Text Domain: love.com
+Version: 1.0
+Requires at least: 1.0
+Requires PHP: 7.1+
+Description: 适用于举办比赛官网CMS模板
+Author: Macro
+*/
+
+
+ .fixed-bottom {position: fixed;bottom: 0;width:100%;}
+ 
+#layout-shadow {
+    display: none;
+    z-index: 9999;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.oneday-menu #search{
+    color: #333333;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 13px;
+    font-weight: 600;
+    zoom: 1;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.oneday-menu li:hover i{
+    color: #03c4eb;
+}
+#content-search {
+    display: none;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #e7e7e7;
+    text-align: center;
+    background: #fff;
+    z-index: 10000;
+    position: fixed;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 0;
+            box-shadow: rgba(0, 0, 0, 0.2) 0 0 5px 0;
+    border-radius: 4px;
+}
+
+#content-search span {
+    font-size: 18px;
+    text-align: left;
+}
+.search-header {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.search-header .fa{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    float: right;
+}
+#content-search #search {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    width: 264px;
+    margin: 5px 18px;
+    border-bottom: 1px solid #e5e9ef;
+}
+#content-search .searchInput {
+    border-radius: 3px;
+}
+#content-search .searchSubmit {
+    border-radius: 3px;
+    height: 41px;
+}
+#search-close:hover{
+    transition: .9s !important;
+    -webkit-transition: .9s !important;
+    -moz-transition: .9s !important;
+    -o-transition: .9s !important;
+    -ms-transition: .9s !important;
+    transform: rotate(360deg) !important;
+    -webkit-transform: rotate(360deg) !important;
+    -moz-transform: rotate(360deg) !important;
+    -o-transform: rotate(360deg) !important;
+    -ms-transform: rotate(360deg) !important;
+}
+#giligili-close {
+    font-family: "giligili" !important;
+    font-size: 16px;
+    font-style: normal;
+    float: right;
+    cursor: pointer;
+    color: #999;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
